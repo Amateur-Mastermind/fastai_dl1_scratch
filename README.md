@@ -1,14 +1,15 @@
 # fastai_dl1_scratch
 
 
-## Local Linux Setup
+### Local Linux Setup
 Reference: https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
 
 The way I plan on organizing it is...
-### Setup fastai conda env
+
+
 1. Install / update to latest version of `conda` and `pip` 
 
-2. Clone Repo into ~/src/ and setup a fastai conda environment
+2. Clone `fastai` repo into ~/src/ and setup a fastai conda environment
 ```
 cd ~/src
 git clone https://github.com/fastai/fastai.git
@@ -16,7 +17,7 @@ cd fastai
 conda env create -f environment.yml
 ```
 
-3. Use this repo to track my notes/changes when going through the lesson notebooks (and perhaps for playing around with datasets in kaggle). (example for lesson1.ipynb which might already be checked)
+3. Use this (`fastai_dl1_scratch`) repo to track my notes/changes when going through the lesson notebooks (and perhaps for playing around with datasets in kaggle). (example for lesson1.ipynb which might already be checked)
 ```
 cd ~/projects
 git clone https://github.com/Amateur-Mastermind/fastai_dl1_scratch.git
